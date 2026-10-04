@@ -1,3 +1,19 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b1026; /* samakan dengan kode hex warna background navy lo */
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
 :root {
     --primary-color: #d4af37;
     --secondary-color: #1e1b4b;
